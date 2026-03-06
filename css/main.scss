@@ -1,7 +1,7 @@
 /* styles.css */
 @font-face {
   font-family: "Fira Sans";
-  src: url('../../src/assets/fonts/Fira_Sans/FiraSans-ExtraBold.ttf') format('truetype');
+  src: url('../assets/fonts/Fira_Sans/FiraSans-ExtraBold.ttf') format('truetype');
   font-style: normal;
   font-weight: 800;
   font-display: swap;
@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: "Inter";
-  src: url('../../src/assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+  src: url('../assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf') format('truetype');
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -27,7 +27,7 @@ body {
   box-sizing: border-box;
   font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   color: #0e1113;
-  background-image: var(--imw-bg, url('../../src/assets/bg-image.webp'));
+  background-image: var(--imw-bg, url('../assets/bg-image.webp'));
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -632,22 +632,22 @@ body {
 }
 
 .pill-blue {
-  background-image: url('../../src/assets/BlueCircle.png');
+  background-image: url('../assets/BlueCircle.png');
 }
 
 .pill-orange {
   --main: var(--orange);
-  background-image: url('../../src/assets/OrangeCircle.png');
+  background-image: url('../assets/OrangeCircle.png');
 }
 
 .pill-green {
   --main: var(--green);
-  background-image: url('../../src/assets/GreenCircle.png');
+  background-image: url('../assets/GreenCircle.png');
 }
 
 .pill-cap-blue {
   border-radius: 999px;
-  background-image: url('../../src/assets/Blue\ Oval@3x.png');
+  background-image: url('../assets/Blue\ Oval@3x.png');
   background-size: 136% 136%;
   background-position: center;
   background-repeat: no-repeat;
@@ -657,7 +657,7 @@ body {
   --accent: var(--orange-dark);
   --accent: var(--blue-dark);
   border-radius: 999px;
-  background-image: url('../../src/assets/orange\ oval@3x.png');
+  background-image: url('../assets/orange\ oval@3x.png');
   background-size: 136% 136%;
   background-position: center;
   background-repeat: no-repeat;
@@ -667,7 +667,7 @@ body {
   --accent: var(--green-dark);
   --accent: var(--blue-dark);
   border-radius: 999px;
-  background-image: url('../../src/assets/Green\ Oval@3x.png');
+  background-image: url('../assets/Green\ Oval@3x.png');
   background-size: 136% 136%;
   background-position: center;
   background-repeat: no-repeat;
@@ -1194,7 +1194,7 @@ body {
 .dot.is-selected,
 .dot:focus-visible {
   outline: none;
-  background-image: var(--dot-image), url("../../src/assets/white dot@3x.png");
+  background-image: var(--dot-image), url("../assets/white dot@3x.png");
   background-size: 72% 72%, 100% 100%;
   background-repeat: no-repeat, no-repeat;
   background-position: center, center;
@@ -1202,15 +1202,15 @@ body {
 
 /* Theme-specific dot icons */
 .dot[data-theme="cultural"] {
-  --dot-image: url("../../src/assets/blue dot 1@3x.png");
+  --dot-image: url("../assets/blue dot 1@3x.png");
 }
 
 .dot[data-theme="power"] {
-  --dot-image: url("../../src/assets/Orange dot@3x.png");
+  --dot-image: url("../assets/Orange dot@3x.png");
 }
 
 .dot[data-theme="reciprocity"] {
-  --dot-image: url("../../src/assets/Green dot 1@3x.png");
+  --dot-image: url("../assets/Green dot 1@3x.png");
 }
 
 
@@ -1379,7 +1379,7 @@ body {
 
 .cap-blue {
   border-radius: 999px;
-  background-image: url('../../src/assets/Blue Oval@3x.png');
+  background-image: url('../assets/Blue Oval@3x.png');
   background-size: 136% 136%;
   background-position: center;
   background-repeat: no-repeat;
@@ -1387,7 +1387,7 @@ body {
 
 .cap-orange {
   border-radius: 999px;
-  background-image: url('../../src/assets/orange oval@3x.png');
+  background-image: url('../assets/orange oval@3x.png');
   background-size: 136% 136%;
   background-position: center;
   background-repeat: no-repeat;
@@ -1399,7 +1399,7 @@ body {
 
 .cap-green {
   border-radius: 999px;
-  background-image: url('../../src/assets/Green Oval@3x.png');
+  background-image: url('../assets/Green Oval@3x.png');
   background-size: 136% 136%;
   background-position: center;
   background-repeat: no-repeat;
