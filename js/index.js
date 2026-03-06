@@ -13,7 +13,7 @@
       "Commissioner has no cultural capability, resulting in an evaluation that lacks any cultural responsiveness and fails to respect Indigenous community context, undermining trust."
     ],
     power: [
-      "Indigenous led and self-determined, with accountability to Indigenous people and communities.",
+      "Indigenous-led and self-determined, with accountability to Indigenous people and communities.",
       "Commissioner delegates evaluation responsibilities to Indigenous Service Providers. Service Providers are primarily accountable to Indigenous people rather than the Commissioner.",
       "Equal partnerships between Commissioners and Service Provider(s) with accountability to each other and Indigenous communities. There may be compromises in stakeholders' preferred approaches.",
       "Little engagement and no partnership with Indigenous people. Power is maintained by the Commissioner. Commissioners have no accountability to Indigenous people or organisations.",
